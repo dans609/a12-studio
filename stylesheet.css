@@ -85,6 +85,14 @@ main {
   background-image: url(https://www.theweddingsecret.co.uk/magazine/wp-content/uploads/videography-feature-image.jpg);
   background-size: cover;
   color: white;
+  text-align: left;
+}
+
+.container-main {
+  max-width: 1170px;
+  padding: 0px 15px 30px 15px;
+  margin: 0 auto;
+  box-shadow:0px 5px 6px #000000;
   text-align: center;
 }
 
