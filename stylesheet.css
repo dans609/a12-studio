@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  height: 1080px
+}
+
 .clear {
   clear : left;
 }
