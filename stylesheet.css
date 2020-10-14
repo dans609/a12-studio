@@ -80,6 +80,24 @@ header {
   display: none;
 }
 
+main {
+  padding: 80px 60px;
+  background-image: url(https://www.theweddingsecret.co.uk/magazine/wp-content/uploads/videography-feature-image.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container-main h1 {
+  font-family: Georgia, serif;
+  margin: auto;
+}
+
+.container-main p {
+  font-family: cursive;
+  opacity: 0.7;
+}
+
 .prod
 {
   display:flex;
