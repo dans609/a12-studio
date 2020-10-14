@@ -131,8 +131,15 @@ header {
 
 .txt-content h1, p {
   font-family: 'Maven Pro';
-  padding-bottom: 25px;
-  margin: 10px
+  margin: 8px
+}
+
+.txt-content  h1 {
+ padding-bottom: 15px;
+}
+
+.txt-content  p {
+  width:90%;
 }
 
 
