@@ -106,68 +106,100 @@ main {
   opacity: 0.7;
 }
 
-.prod
-{
-  display:flex;
-  align-items: center;
-  padding-bottom: 20px;
-  border: 2px solid #fff;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
-  box-shadow:0px 5px 6px #000000
+.lesson-wrapper {
+  height: 820px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
-.prod-icon
-{
-  float:left;
-  width: 25%;
-  margin-left: 56px;
-  margin-top: 20px; 
-  margin-bottom: auto;
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+}
+
+.lesson {
+  
+  float: left;
+  width: 33%;
   
 }
 
-.prod-icon img
-{
-  width:100%;
+.lesson-icon {
+  width: 80%;
+  height: 650px;
+  padding: 0px 20px;
+  margin:0 auto;
   border-radius: 25px;
+  box-shadow: 0px 6px 4px #000;
+  
+}
+
+.lesson-icon img {
+  width: 400px;
+  margin-top: 5px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #000, 0 0 5px #000; 
+}
+
+.lesson-icon p {
+  width: 100%;
+  text-align: center;
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.txt-title {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.txt-contents {
+  width: 80%;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
   margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow:0px 6px 6px #000000
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
-.txt-content
-{
-  float:right;
-  width:65%;
-  height: 246px;
-  margin-top: 16px;
-  margin-left: 56px;
-  margin-right: auto;
-  padding-left: 15px;
-  background: rgba(51, 51, 204,0.5);
-  border-radius: 25px;
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  
+}
+
+.message {
+  float:left;
+  width: 21.1%;
+  font-family: "Segoe UI",Arial,sans-serif;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
-  box-shadow:0px 6px 6px #000000;
+  padding: 15px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #5dca88; 
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
 }
 
-.txt-content h1, p {
-  font-family: 'Maven Pro';
-  margin: 8px
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
-
-.txt-content  h1 {
- padding-bottom: 15px;
-}
-
-.txt-content  p {
-  width:90%;
-}
-
 
 footer {
   background-color: #1b252f;
