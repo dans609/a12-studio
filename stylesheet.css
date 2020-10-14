@@ -89,27 +89,30 @@ main {
 }
 
 .container-main {
-  max-width: 1170px;
+  max-width: 100%;
   padding: 0px 15px 30px 15px;
   margin: 0 auto;
-  box-shadow:0px 5px 6px #000000;
+  text-shadow:0px 5px 6px #000000;
   text-align: center;
+  height:300px;
 }
 
 .container-main h1 {
   font-family: Georgia, serif;
+  font-size: 56px;
+  padding-bottom: 50px;
   margin: auto;
 }
 
 .container-main p {
-  font-family: cursive;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size:24px;
   opacity: 0.7;
 }
 
 .service-wrapper {
   height: 820px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
   text-align: center;
 }
 
@@ -122,6 +125,8 @@ main {
 .heading h2 {
   font-family: "Segoe UI",Arial,sans-serif;
   font-weight: 400;
+  color: #fff;
+  text-shadow:  0 0 10px #000, 0 0 5px #000;
 }
 
 .service {
@@ -136,14 +141,16 @@ main {
   height: 650px;
   padding: 0px 20px;
   margin:0 auto;
+  background-color:rgba(255, 51, 0,0.15);
   border-radius: 25px;
   box-shadow: 0px 6px 4px #000;
   
 }
 
 .service-icon img {
-  width: 400px;
+  width: 320px;
   margin-top: 5px;
+  margin-bottom: 15px;
   border-radius: 25px;
   box-shadow: 0 0 10px #000, 0 0 5px #000; 
 }
@@ -151,7 +158,8 @@ main {
 .service-icon p {
   width: 100%;
   text-align: center;
-  color: black;
+  color: white;
+  text-shadow:  0 0 10px #000, 0 0 5px #000;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -171,12 +179,7 @@ main {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
-}
-
 .message-wrapper {
-  border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
   
@@ -184,11 +187,11 @@ main {
 
 .message {
   float:left;
-  width: 21.1%;
+  width: 25%;
   font-family: "Segoe UI",Arial,sans-serif;
   color: white;
   padding: 15px 40px;
-  margin-left: 50px;
+  margin-left: 60px;
   margin-right: 50px;
   background-color: #5dca88; 
   cursor: pointer;
