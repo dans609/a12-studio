@@ -1,1 +1,65 @@
+@media screen and (min-width: 1200px) {
+  .service-icon {
+    height: 700px;
+    grid-template-rows: auto 8% 47% 32%;
+  }
+}
 
+@media screen and (max-width: 1200px) {
+  
+  .container-main{
+    text-align: left;
+  }
+  
+  .service-wrapper{
+    text-align: left;
+  }
+  
+  .services {
+    margin:0 auto;
+    width: 70%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto; 
+  }
+  
+  .service-icon {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    margin:0 auto;
+    width: 100%;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .message {
+    padding: 10px;
+  }
+  .service-icon {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+  }
+  main {
+    padding: 80px 10px;
+  }
+  .container-main p {
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #1b252f;
+  }
+  .container-main h1 {
+    font-size: 48px;
+  }
+  .service-icon {
+    height: 700px;
+  }
+  
+  
+}
