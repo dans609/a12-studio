@@ -45,6 +45,10 @@
     display: block;
   }
   
+  .header-right {
+    display: none;
+  }
+  
   .services {
     margin:0 auto;
     width: 100%;
