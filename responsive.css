@@ -11,6 +11,10 @@
     text-align: left;
   }
   
+  .container-main p {
+    color: #1b252f;
+  }
+  
   .service-wrapper{
     text-align: left;
   }
@@ -47,7 +51,6 @@
   
   .header-right {
     display: none;
-    margin:0;
   }
   
   .services {
