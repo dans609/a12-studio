@@ -12,7 +12,7 @@
   }
   
   .container-main p {
-    color: #1b252g;
+    color: black;
   }
   
   .service-wrapper{
@@ -81,6 +81,13 @@
   }
   .service-icon {
     height: 700px;
+  }
+  
+  .btn-find-us span {
+    display:table;
+    padding-bottom: 8px;
+    text-align: center;
+    margin:0 auto;
   }
   
   
