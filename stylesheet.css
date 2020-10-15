@@ -19,6 +19,7 @@ main {
 
 .container {
   max-width: 1170px;
+  height: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -80,11 +81,17 @@ header {
   display: none;
 }
 
+body{
+  width:100%;
+  
+}
+
 main {
   padding: 80px 60px;
   background-image: url(https://www.theweddingsecret.co.uk/magazine/wp-content/uploads/videography-feature-image.jpg);
   background-size: cover;
   color: white;
+  height: 100%;
   text-align: left;
 }
 
@@ -111,8 +118,8 @@ main {
 }
 
 .service-wrapper {
+  width: 100%;
   text-align: center;
-  z-index:10;
 }
 
 .heading {
@@ -128,34 +135,39 @@ main {
   text-shadow:  0 0 10px #000, 0 0 5px #000;
 }
 
+.containerz {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .service {
- padding: 40px;
- display: grid;
+ padding: 20px;
  
 }
 
 .services {
-  
  display: grid;
- grid-template-columns: repeat(3, auto); 
+ grid-template-columns: auto auto auto;
+ grid-template-rows: auto auto auto;
 }
 
 
 
 .service-icon {
-  height: 700px;
-  padding: 30px 20px;
+  width: 100%;
+  height: 850px;
+  padding: 10px 20px 40px 20px;
   margin:0 auto;
   background-color:rgba(255, 51, 0,0.15);
   border-radius: 25px;
   box-shadow: 0px 6px 4px #000;
   justify-self: center;
   display: grid;
-  grid-template-rows: auto auto 45% auto;
+  grid-template-rows: 35% 8% 53% 25%;
 }
 
 .service-icon img {
-  width: 300px;
+  width: 100%;
   margin: 5px auto 15px auto;
   border-radius: 25px;
   box-shadow: 0 0 10px #000, 0 0 5px #000; 
@@ -168,6 +180,10 @@ main {
   text-justify: inter-word;
 }
 
+.service-icon span {
+  margin-top:30px;
+}
+
 .txt-title {
   font-family: "Segoe UI",Arial,sans-serif;
   font-style: italic;
@@ -175,19 +191,14 @@ main {
 }
 
 .txt-contents {
-  
+  font-size: 16px;
   font-family: "Lato", sans-serif;
   display: inline-block;
-  margin-top: 20px;
+  text-align: center;
   font-size: 15px;
   color: #b3aeb5;
 }
 
-.message-wrapper {
-  padding-bottom: 80px;
-  text-align: center;
-  
-}
 
 .messages {
   justify-self:center;
@@ -197,7 +208,8 @@ main {
   justify-self:center;
   font-family: "Segoe UI",Arial,sans-serif;
   color: white;
-  padding: 15px 40px;
+  font-size: 16px;
+  padding: 12px 8px;
   border-radius: 15px;
   background-color: #5dca88; 
   cursor: pointer;
@@ -272,3 +284,4 @@ footer {
 .copyright p {
   font-family: "Arial"
 }
+
