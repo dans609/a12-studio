@@ -226,6 +226,12 @@ main {
   background-color: #5dca88; 
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+}
+
+.message:hover {
+  opacity: 1;
+  color: rgba(0,0,0,0.8);
 }
 
 .message:active {
