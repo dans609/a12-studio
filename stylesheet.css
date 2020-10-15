@@ -101,7 +101,7 @@ main {
   font-family: Georgia, serif;
   font-size: 56px;
   padding-bottom: 50px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .container-main p {
@@ -111,9 +111,8 @@ main {
 }
 
 .service-wrapper {
-  height: 820px;
-  padding-bottom: 80px;
   text-align: center;
+  z-index:10;
 }
 
 .heading {
@@ -130,34 +129,39 @@ main {
 }
 
 .service {
-  
-  float: left;
-  width: 33%;
-  
+ padding: 40px;
+ display: grid;
+ 
 }
 
+.services {
+  
+ display: grid;
+ grid-template-columns: repeat(3, auto); 
+}
+
+
+
 .service-icon {
-  width: 80%;
-  height: 650px;
-  padding: 0px 20px;
+  height: 700px;
+  padding: 30px 20px;
   margin:0 auto;
   background-color:rgba(255, 51, 0,0.15);
   border-radius: 25px;
   box-shadow: 0px 6px 4px #000;
-  
+  justify-self: center;
+  display: grid;
+  grid-template-rows: auto auto 45% auto;
 }
 
 .service-icon img {
-  width: 320px;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  width: 300px;
+  margin: 5px auto 15px auto;
   border-radius: 25px;
   box-shadow: 0 0 10px #000, 0 0 5px #000; 
 }
 
 .service-icon p {
-  width: 100%;
-  text-align: center;
   color: white;
   text-shadow:  0 0 10px #000, 0 0 5px #000;
   text-align: justify;
@@ -171,7 +175,7 @@ main {
 }
 
 .txt-contents {
-  width: 80%;
+  
   font-family: "Lato", sans-serif;
   display: inline-block;
   margin-top: 20px;
@@ -185,14 +189,16 @@ main {
   
 }
 
+.messages {
+  justify-self:center;
+}
+
 .message {
-  float:left;
-  width: 25%;
+  justify-self:center;
   font-family: "Segoe UI",Arial,sans-serif;
   color: white;
   padding: 15px 40px;
-  margin-left: 60px;
-  margin-right: 50px;
+  border-radius: 15px;
   background-color: #5dca88; 
   cursor: pointer;
   box-shadow: 0 7px #1a7940;
